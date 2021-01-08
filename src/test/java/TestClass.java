@@ -17,11 +17,11 @@ public class TestClass {
         chapterOnePageObject = new ChapterOnePageObjects();
     }
 
-    @Parameters({"URL"})
+    @Parameters({"url"})
     @Test
-    public void verifyHomePage(@Optional("http://book.theautomatedtester.co.uk/") String URL) {
+    public void verifyHomePage(@Optional("http://book.theautomatedtester.co.uk/") String url) {
         // Opening required URL
-        homePageObject.openURL(URL);
+        homePageObject.openURL(url);
         $(homePageObject.chapterOneLink).shouldBe(Condition.visible);
     }
 

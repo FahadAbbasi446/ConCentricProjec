@@ -1,4 +1,4 @@
-# CorCentricProjec
+# Books Chapter Automation
 Steps to run this project:
 
 1: Install Java and set its Environment Variable.
