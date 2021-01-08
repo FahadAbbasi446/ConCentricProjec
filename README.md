@@ -16,8 +16,4 @@ directory (Make sure you download the driver version same as the Chrome version 
 
 7: Add [-Dtestng.dtd.http=true] in Test Configuration by going to Run > Edit Configurations > Templates > TestNG > VM options.
 
-8: Put path of ChromeDriver in TestSuite.xml against parameter chromeDriverPath if you want to run tests from TestSuite.xml. Else provide path in TestClass.java as optional parameter in doBeforeClass method if you want to run any method with @test on it.
-
-9: Put URL in TestSuite.xml against parameter URL if you want to run tests from TestSuite.xml. Else provide URL in TestClass.java as optional parameter in verifyHomePage method if you want to run any method with @test on it.
-
-10: After project is loaded right click on testng.xml and select run.
+8: After project is loaded right click on testng.xml and select run.
