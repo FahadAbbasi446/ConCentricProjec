@@ -14,7 +14,7 @@ Steps to run this project:
 6: Wait for project to load. Once loaded, download chromedriver.exe from here https://chromedriver.chromium.org/downloads and place it in project root
 directory (Make sure you download the driver version same as the Chrome version installed on your system).
 
-7: Add [-Dtestng.dtd.http=true] in Test Configuration.
+7: Add [-Dtestng.dtd.http=true] in Test Configuration by going to Run > Edit Configurations > Templates > TestNG > VM options.
 
 8: Put path of ChromeDriver in TestSuite.xml against parameter chromeDriverPath if you want to run tests from TestSuite.xml. Else provide path in TestClass.java as optional parameter in doBeforeClass method if you want to run any method with @test on it.
 
